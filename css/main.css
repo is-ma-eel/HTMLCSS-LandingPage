@@ -41,8 +41,8 @@ section {
 
 .btn{
     cursor: pointer;
-    border: none;
-    padding: 6px 12px 6px 12px;
+    border: 0;
+    padding: 6px 12px;
     border-radius: 3px;
     line-height: 1.4;
 }
@@ -51,9 +51,11 @@ section {
     color: white;
 }
 .btn-default{
+    color: #ffffff;
     background-color: #faa541;
 }
 .btn-primary{
+    color: #ffffff;
     background-color: #364147;
 }
 
@@ -66,15 +68,15 @@ section {
 }
 
 .text-light{
+    font-size: 30px;
     color: #a0a0a0;
 }
 .text-secondary{
+    font-size: 30px;
     color: #faa541;
 }
 .text-primary{
     font-size: 16px;
     color: #364147;
 }
-.text-light, .text-secondary{
-    font-size: 30px;
-}
+
